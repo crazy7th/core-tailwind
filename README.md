@@ -107,7 +107,7 @@ core-tailwind/
 ## Customization
 
 - Ubah **warna, spacing, font** lewat `tailwind.config.js`  
-- Tambahkan class manual di folder `src/custom/`  
+- Tambahkan class manual di folder `/custom/`  
 - Tambahkan / modifikasi komponen di `src/components/`  
 - Gunakan contoh layout di `src/pages/` untuk memulai  
 
