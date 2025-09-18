@@ -1,6 +1,8 @@
 {
   "scripts": {
-    "build": "tailwindcss --postcss -c ./tailwind.config.js -i ./custom/style.css -o ./src/assets/css/style.css --watch"
+    "dev": "tailwindcss --postcss -c ./tailwind.config.js -i ./custom/style.css -o ./src/assets/css/style.css --watch",
+    "build": "tailwindcss --postcss -c ./tailwind.config.js -i ./custom/style.css -o ./src/assets/css/style.css --minify",
+    "watch": "tailwindcss --postcss -c ./tailwind.config.js -i ./custom/style.css -o ./src/assets/css/style.css --watch"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.21",
